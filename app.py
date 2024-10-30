@@ -4,6 +4,7 @@ def login(username, password):
         return "Autenticación exitosa"
     else:
         return "Credenciales incorrectas"
-    if __name__ == "__main__":
-        # Simulación de login
-        print(login("admin", "1234"))
+        
+if __name__ == "__main__":
+    # Simulación de login
+    print(login("admin", "1234"))
